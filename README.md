@@ -1,4 +1,4 @@
-# 👨‍💻 Software Engineer Portfolio Website
+# 👨‍💻 Madu Damian Sopuluchukwu Portfolio as a Software Engineer.
 
 Welcome to my personal website! This platform showcases who I am as a software engineer—my experience, technical skills, and the exciting projects I’ve worked on. It’s also a place to share insights and connect with like-minded folks.
 
