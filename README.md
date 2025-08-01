@@ -4,7 +4,7 @@ Welcome to my personal website! This platform showcases who I am as a software e
 
 ## 🧑‍💼 About Me
 
-Hi, I'm [Your Name], a passionate Software Engineer with a knack for solving problems through code. I specialize in [Frontend / Backend / Full-stack Development], and have hands-on experience with technologies like [React, Node.js, Python, etc.]. This website reflects my journey, interests, and goals in the tech world.
+Hi, I'm Madu Damian, a passionate Software Engineer with a knack for solving problems through code. I specialize in [Frontend / Backend / Full-stack Development], and have hands-on experience with technologies like [React, Node.js, Python, etc.]. This website reflects my journey, interests, and goals in the tech world.
 
 ## 🚀 Features
 
