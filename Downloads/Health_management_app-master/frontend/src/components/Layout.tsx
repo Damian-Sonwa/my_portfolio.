@@ -500,9 +500,10 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
         </main>
       </div>
       
-      {/* AdMob Banner Ad at Bottom - Outside main content */}
-      <BannerAd adSlot="5261243188" />
     </div>
+    
+    {/* AdMob Banner Ad at Bottom - Fixed outside main container */}
+    <BannerAd adSlot="5261243188" />
   );
 };
 
