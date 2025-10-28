@@ -105,6 +105,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
   const isActive = (href: string) => location.pathname === href;
 
   return (
+    <>
     <div className={`min-h-screen transition-colors duration-300 ${
       isDarkMode 
         ? 'bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900' 
@@ -504,6 +505,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
     
     {/* AdMob Banner Ad at Bottom - Fixed outside main container */}
     <BannerAd adSlot="5261243188" />
+    </>
   );
 };
 

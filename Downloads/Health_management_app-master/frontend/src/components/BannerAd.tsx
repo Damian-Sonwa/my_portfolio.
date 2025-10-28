@@ -22,18 +22,18 @@ export const BannerAd: React.FC<BannerAdProps> = ({ adSlot, style }) => {
   }, []);
 
   return (
-    <div className="w-full flex justify-center bg-gray-50 dark:bg-gray-900 py-4 border-t-2 border-gray-200 dark:border-gray-700" style={style}>
-      <div className="w-full max-w-5xl px-4">
-        <div className="bg-white dark:bg-gray-800 rounded-lg border-2 border-dashed border-gray-300 dark:border-gray-600 shadow-sm p-6">
+    <div className="w-full flex justify-center bg-red-100 dark:bg-red-900 py-6 border-t-4 border-red-500 shadow-lg" style={style}>
+      <div className="w-full max-w-6xl px-6">
+        <div className="bg-yellow-50 dark:bg-yellow-900 rounded-lg border-4 border-dashed border-yellow-400 shadow-lg p-8">
           <div className="text-center">
-            <p className="text-sm font-semibold text-gray-700 dark:text-gray-300 mb-2">Advertisement Area</p>
-            <div className="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-gray-700 dark:to-gray-800 h-24 rounded-lg flex items-center justify-center border border-gray-200 dark:border-gray-600">
+            <p className="text-lg font-bold text-yellow-900 dark:text-yellow-100 mb-3">🗨️ Advertisement Area - Always Visible!</p>
+            <div className="bg-gradient-to-r from-pink-200 via-purple-200 to-blue-200 dark:from-gray-700 dark:to-gray-800 h-32 rounded-lg flex items-center justify-center border-2 border-purple-400 dark:border-gray-600">
               <div className="text-center">
-                <p className="text-xs font-medium text-gray-500 dark:text-gray-400">Google AdSense Banner</p>
-                <p className="text-xs text-gray-400 dark:text-gray-500 mt-1">728x90 pixels</p>
+                <p className="text-base font-bold text-purple-700 dark:text-purple-300">Google AdSense Banner</p>
+                <p className="text-sm text-purple-600 dark:text-purple-400 mt-2">728x90 pixels</p>
               </div>
             </div>
-            <p className="text-xs text-gray-500 dark:text-gray-400 mt-3">Ads will appear here once your site is approved</p>
+            <p className="text-sm text-red-600 dark:text-red-400 mt-4 font-semibold">Ads will appear here once your site is approved</p>
           </div>
         </div>
       </div>
