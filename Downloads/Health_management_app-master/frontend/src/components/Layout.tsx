@@ -498,10 +498,10 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
         <main className="flex-1 p-6">
           {children}
         </main>
-        
-        {/* AdMob Banner Ad at Bottom */}
-        <BannerAd adSlot="5261243188" />
       </div>
+      
+      {/* AdMob Banner Ad at Bottom - Outside main content */}
+      <BannerAd adSlot="5261243188" />
     </div>
   );
 };
