@@ -14,6 +14,7 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.ExperimentalComposeUiApi
 import androidx.compose.ui.viewinterop.AndroidView
+import androidx.compose.foundation.background
 import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.AdSize
 import com.google.android.gms.ads.AdView
@@ -126,12 +127,13 @@ fun MainScreen() {
             }
         }
         
-        // Banner Ad - Fixed at bottom
+        // Banner Ad - Fixed at bottom (always visible)
         BannerAd(
             adUnitId = adUnitId,
             modifier = Modifier
                 .align(Alignment.BottomCenter)
                 .fillMaxWidth()
+                .padding(0.dp)
         )
     }
 }
@@ -144,9 +146,14 @@ fun BannerAd(adUnitId: String, modifier: Modifier = Modifier) {
             AdView(context).apply {
                 setAdSize(AdSize.BANNER)
                 this.adUnitId = adUnitId
-                loadAd(AdRequest.Builder().build())
+                
+                // Load the ad request
+                val adRequest = AdRequest.Builder().build()
+                loadAd(adRequest)
             }
         },
-        modifier = modifier.height(50.dp)
+        modifier = modifier
+            .height(50.dp)
+            .background(color = MaterialTheme.colorScheme.surface)
     )
 }
