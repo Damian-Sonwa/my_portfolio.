@@ -1,0 +1,55 @@
+===============================================
+  NO DOWNLOAD NEEDED - JUST COPY THE FILE!
+===============================================
+
+Your APK is already built on your computer.
+Just copy it to your phone!
+
+===============================================
+
+STEP 1: ON YOUR COMPUTER
+
+1. Open Windows File Explorer
+2. Go to:
+   C:\Users\Juliet\Downloads\Health_management_app-master\android\app\build\outputs\apk\debug\
+
+3. You'll see: app-debug.apk file
+
+===============================================
+
+STEP 2: TRANSFER TO PHONE
+
+Since your phone is connected via USB:
+
+1. You should see your phone appear in File Explorer
+   (Look for "Android" or your phone's name)
+
+2. Copy "app-debug.apk" file
+
+3. Paste it to your phone (usually in "Downloads" folder)
+
+OR
+
+Email it to yourself:
+- Right-click app-debug.apk
+- "Send to" → Mail recipient
+- Email to yourself
+- Download on phone
+
+===============================================
+
+STEP 3: INSTALL ON PHONE
+
+1. Open Files app on your phone
+2. Find app-debug.apk
+3. Tap it
+4. Tap "Install"
+5. Done!
+
+===============================================
+
+YOU DON'T NEED TO DOWNLOAD ANYTHING!
+The APK is already made - just copy and install!
+
+===============================================
+

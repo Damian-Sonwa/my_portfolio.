@@ -1,0 +1,58 @@
+===============================================
+  ANDROID PROJECT LOCATION FOR ANDROID STUDIO
+===============================================
+
+📁 EXACT PATH TO OPEN IN ANDROID STUDIO:
+
+C:\Users\Juliet\Downloads\Health_management_app-master\android
+
+
+===============================================
+HOW TO OPEN:
+===============================================
+
+1. Open Android Studio
+2. Click "Open" or "Open an Existing Project"
+3. Copy and paste this path:
+   
+   C:\Users\Juliet\Downloads\Health_management_app-master\android
+   
+4. Click OK
+5. Wait for Gradle sync (first time: 5-15 minutes)
+
+
+===============================================
+IMPORTANT - DO NOT OPEN:
+===============================================
+
+❌ DON'T open: Health_management_app-master (parent folder)
+✅ DO open: android (this folder)
+
+
+===============================================
+FILES STATUS:
+===============================================
+
+✅ All XML files end with .xml
+✅ All PNG files end with .png (for app icons)
+✅ App name: "Nuviacare" (no underscores)
+✅ AdMob fully configured
+✅ Backend URL configured
+✅ Ready to build!
+
+
+===============================================
+QUICK CHECK:
+===============================================
+
+Inside the 'android' folder you should see:
+- app/
+- build.gradle
+- settings.gradle
+- README.md
+
+If you see these files, you're in the RIGHT location!
+
+
+===============================================
+

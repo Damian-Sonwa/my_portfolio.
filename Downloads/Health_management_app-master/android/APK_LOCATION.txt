@@ -1,0 +1,12 @@
+===============================================
+  YOUR APK FILES ARE HERE!
+===============================================
+
+Open Windows File Explorer and navigate to:
+
+C:\Users\Juliet\Downloads\Health_management_app-master\android\app\build\outputs\apk\
+
+You should find APK files here!
+
+===============================================
+
