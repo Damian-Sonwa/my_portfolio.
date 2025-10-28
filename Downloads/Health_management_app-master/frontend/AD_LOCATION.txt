@@ -1,0 +1,67 @@
+===============================================
+  WHERE YOUR ADS WILL APPEAR
+===============================================
+
+Ads appear at the BOTTOM of every page in your app
+
+
+-----------------------------------------------
+VISUAL LAYOUT:
+-----------------------------------------------
+
+Page Structure:
+
+┌─────────────────────────────────────────┐
+│  Sidebar (Navigation)                    │
+│                                           │
+│  ┌───────────────────────────────┐      │
+│  │  Dashboard                     │      │
+│  │  (Your main content)            │      │
+│  │                                 │      │
+│  │                                 │      │
+│  └───────────────────────────────┘      │
+│                                           │
+│  ┌───────────────────────────────┐      │
+│  │  Advertisement                 │      │
+│  │  [Your Google Ad Banner]       │  ← Ad appears HERE
+│  │  (728x90 pixels)               │      │
+│  └───────────────────────────────┘      │
+└─────────────────────────────────────────┘
+
+-----------------------------------------------
+
+EXACT LOCATION:
+- Bottom of main content area
+- Just before the footer
+- Centered horizontally
+- Gray background
+
+---
+
+PAGES WHERE ADS APPEAR:
+✅ Dashboard
+✅ Vitals
+✅ Medications  
+✅ Appointments
+✅ Profile
+✅ Caregivers
+✅ Care Plans
+✅ Education
+✅ Telehealth
+✅ Settings
+✅ Wellness Guide
+✅ AI Chat
+✅ Devices
+✅ Analytics
+✅ Gamification
+
+---
+
+WHY YOU DON'T SEE ADS YET:
+⏳ Google AdSense needs to approve your site (1-7 days)
+⏳ Ads take time to start serving
+✅ Code is deployed and working
+✅ Ads will appear automatically when ready
+
+===============================================
+

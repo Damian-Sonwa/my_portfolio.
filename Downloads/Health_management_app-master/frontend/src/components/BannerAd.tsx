@@ -21,28 +21,22 @@ export const BannerAd: React.FC<BannerAdProps> = ({ adSlot, style }) => {
     }
   }, []);
 
-  // Show placeholder when ads not loaded yet
-  const [showPlaceholder, setShowPlaceholder] = React.useState(true);
-
-  useEffect(() => {
-    // Hide placeholder after ad loads or timeout
-    const timer = setTimeout(() => setShowPlaceholder(false), 3000);
-    return () => clearTimeout(timer);
-  }, []);
-
   return (
-    <div className="w-full flex justify-center bg-gray-100 dark:bg-gray-800 py-2 border-t border-gray-300 dark:border-gray-700" style={style}>
-      {showPlaceholder && (
-        <div className="w-full max-w-4xl px-4 py-4 bg-white dark:bg-gray-800 rounded border border-gray-200 dark:border-gray-700 shadow-sm">
-          <div className="text-center text-sm text-gray-600 dark:text-gray-400">
-            <p className="font-medium">Advertisement</p>
-            <p className="text-xs mt-1">Google Ads will appear here once approved</p>
-            <div className="mt-2 h-24 bg-gradient-to-r from-gray-100 to-gray-200 dark:from-gray-700 dark:to-gray-800 rounded flex items-center justify-center">
-              <span className="text-xs text-gray-500">Ad Banner (728x90)</span>
+    <div className="w-full flex justify-center bg-gray-50 dark:bg-gray-900 py-4 border-t-2 border-gray-200 dark:border-gray-700" style={style}>
+      <div className="w-full max-w-5xl px-4">
+        <div className="bg-white dark:bg-gray-800 rounded-lg border-2 border-dashed border-gray-300 dark:border-gray-600 shadow-sm p-6">
+          <div className="text-center">
+            <p className="text-sm font-semibold text-gray-700 dark:text-gray-300 mb-2">Advertisement Area</p>
+            <div className="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-gray-700 dark:to-gray-800 h-24 rounded-lg flex items-center justify-center border border-gray-200 dark:border-gray-600">
+              <div className="text-center">
+                <p className="text-xs font-medium text-gray-500 dark:text-gray-400">Google AdSense Banner</p>
+                <p className="text-xs text-gray-400 dark:text-gray-500 mt-1">728x90 pixels</p>
+              </div>
             </div>
+            <p className="text-xs text-gray-500 dark:text-gray-400 mt-3">Ads will appear here once your site is approved</p>
           </div>
         </div>
-      )}
+      </div>
       <ins
         className="adsbygoogle block"
         style={{ display: 'block', width: '100%', maxWidth: '728px', height: '90px', minHeight: '90px' }}
